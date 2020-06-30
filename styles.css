@@ -1,0 +1,708 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+/*============================================
+*
+*         Fonts
+*
+*
+*===========================================*/
+
+body {
+	font-family:'Poppins', sans-serif;
+	color: black;
+	background-color: white;
+}
+
+h1 {
+	font-size: 2.5rem;
+	text-transform:uppercase;
+	color: black;
+}
+
+h2 {
+	font-size: 2rem;
+	letter-spacing: 1px;
+	text-transform:uppercase;
+	color: #cd8576;
+	padding:1% 0 1% 0;
+	border-bottom: 2px solid black;
+}
+
+p {
+	padding-top: 3%;
+}
+
+
+
+
+
+/*============================================
+*
+*         Desktop Nav
+*
+*
+*===========================================*/
+.desktop-menu {
+	display: none;
+}
+
+.desktop-menu img {
+	width: 400px;
+}
+
+/*============================================
+*
+*         Portfolio Nav Only
+*
+*
+*===========================================*/
+
+.portfolio {
+	background-color: #d7a09b;
+	text-align:center;
+	position: fixed;
+}
+
+.portfolio-logo {
+	padding-top: 10%;
+	max-width: 70%;
+	background-color: #d7a09b;
+}
+
+.portfolio-heading {
+	padding-top: 30%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+/* Portfolio Heading*/
+.portfolio-heading h1 {
+	font-size: 2rem;
+	letter-spacing: 1px;
+	text-transform:uppercase;
+	color: #cd8576;
+	padding:1% 0 1% 0;
+	border-bottom: 2px solid black;
+
+}
+
+/*============================================
+*
+*          Hamburger Menu
+*
+*
+*===========================================*/
+
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#000;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#000;}
+.menu ul li a:hover {  color: #666; text-decoration:none;}
+.menu a{text-decoration:none; color:#666;}
+.menu a:hover{text-decoration:none; color:#666;}
+
+
+/*============================================
+*
+*            Buttons
+*
+*
+*===========================================*/
+
+.button {
+  background-color: #ffff;
+  border:4px solid #cd8576;
+  color: black;
+  padding: 12px 16px;
+	margin-top: 3%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font: 1.2rem 'Poppins', sans-serif;
+	font-weight: bold;
+}
+
+.button:hover {
+  background-color: #cd8576;
+  color: #ffff;
+}
+
+.button:active {
+  background-color: #d4d4d4;
+  color: #ffff;
+}
+
+/*============================================
+*
+*            Footer
+*
+*
+*===========================================*/
+
+footer {
+	text-align: center;
+	padding:5% 0 1% 0;
+	background-color: #cd8576;
+}
+
+.footer-logo {
+	max-width: 250px;
+	padding-bottom: 7%;
+	margin: auto;
+	display: block;
+}
+
+.social {
+	max-width:50px;
+	margin: auto;
+}
+
+footer p {
+	padding-top: 5%;
+}
+
+/*============================================
+*
+*            HOME / Hero Image
+*
+*
+*===========================================*/
+
+.hero-image {
+	background-image: url(images/palms.jpg);
+	background-size: cover;
+	padding: 30% 0 30% 0;
+	font-family: 'Manrope', sans-serif;
+}
+
+.hero-image h1 {
+	font-size: 2rem;
+	font-family: 'Manrope', sans-serif;
+	color: #cd8576;
+	background-color: #ffff;
+	letter-spacing: 2px;
+	padding-left: 3px;
+	max-width: 412px;
+}
+
+.container-hero {
+	padding:0 5% 0 5%;
+}
+
+/*============================================
+*
+*            HOME / About Content
+*
+*
+*===========================================*/
+
+.about-content {
+	background-color: #F3E2E1;
+}
+
+.about-me {
+	padding:4% 5% 4% 5%;
+}
+
+.skills {
+	background-color: #cd8576;
+	font-size: 1.25rem;
+	color: white;
+	line-height: 30px;
+	text-transform: uppercase;
+	padding: 6% 0 6% 0;
+	text-align:center;
+}
+
+.skills li {
+	list-style-type: none;
+}
+
+/*============================================
+*
+*            Images
+*
+*
+*===========================================*/
+
+.featured-grid {
+	padding: 4% 3% 2% 3%;
+	display:flex;
+	flex-wrap: wrap;
+	margin:auto;
+}
+
+figure {
+	width: 100%;
+}
+
+figcaption {
+	padding-bottom: 4%;
+	text-align:center;
+}
+
+.featured {
+	padding:4% 5% 0 5%;
+}
+
+img {
+	max-width: 100%;
+}
+
+/*============================================
+*
+*            HOME / Testimonials
+*
+*
+*===========================================*/
+.testimonials {
+	padding:4% 5% 4% 5%;
+	background-color: #F3E2E1;
+	text-align: left;
+}
+
+/*============================================
+*
+*            ABOUT / About Section
+*
+*
+*===========================================*/
+
+.about {
+	padding: 3% 5%;
+}
+
+.about article {
+	padding-bottom: 10px;
+}
+
+.about img {
+	width: 75%;
+	padding-top: 3%;
+}
+/*============================================
+*
+*            ABOUT / Resume
+*
+*
+*===========================================*/
+
+.resume {
+	padding: 4% 10%;
+	background-color: #d7a09b;
+}
+
+.resume p {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/**********************Start Min-width 475px *******************/
+@media (min-width: 475px) {
+
+.about {
+	padding: 0% 5%;
+}
+
+footer {
+	padding:3% 0 1% 0;
+}
+
+.footer-logo {
+	padding-bottom: 4%;
+}
+
+footer p {
+	padding-top: 2%;
+}
+
+}
+
+/**********************End Min-width 475px *******************/
+
+
+/**********************Start Min-width 550px *******************/
+
+@media (min-width: 550px) {
+
+/* Portfolio Nav */
+.portfolio-logo {
+	padding-top: 5%;
+	max-width: 45%;
+}
+
+.portfolio-heading {
+	padding-top: 20%;
+}
+
+}
+
+/**********************End Min-width 550px *******************/
+
+
+/**********************Start Min-width 600px *******************/
+@media (min-width: 600px) {
+
+.hero-image {
+	padding: 15% 0 20% 0;
+}
+
+figure {
+	width: 50%;
+}
+
+figcaption {
+	padding-bottom: 5%;
+}
+
+}
+
+/**********************End Min-width 600px *******************/
+
+/**********************Start Min-width 700px *******************/
+
+@media (min-width: 700px) {
+
+/* Limit Text Background */
+.hero-image h1 {
+	max-width: 615px;
+}
+
+}
+
+/**********************End Min-width 700px *******************/
+
+
+/**********************Start Min-width 800px *******************/
+@media (min-width: 800px) {
+
+	/* HOME / About */
+.about-content {
+	display: flex;
+}
+
+.about-me {
+	max-width: 50%;
+}
+
+	/* HOME / Skills */
+.skills {
+	flex: 1;
+	padding-left: 6%;
+	text-align: left;
+}
+
+	/* HOME / Testimonials */
+.testimonials {
+	padding: 1% 10% 2% 10%;
+	text-align: center;
+}
+
+/* Portfolio Nav */
+.portfolio-logo {
+	padding-top: 3%;
+}
+
+.portfolio-heading {
+	padding-top: 17%;
+}
+
+}
+/**********************End Min-width 800px *******************/
+
+
+/**********************Start Min-width 850px *******************/
+
+@media (min-width: 850px) {
+
+.hero-image {
+	padding: 20% 0 20% 0;
+}
+
+}
+/**********************End Min-width 850px *******************/
+
+
+/**********************Start Min-width 900px *******************/
+@media (min-width: 900px) {
+
+.portfolio-heading {
+	padding-top: 16%;
+}
+
+/* Featured Images */
+.featured-grid {
+	padding: 4% 5% 4% 5%;
+}
+
+figure {
+	width: 25%;
+}
+
+figcaption {
+	padding-bottom: 10%;
+}
+
+/* Footer */
+footer {
+	padding-top:2%;
+}
+
+.footer-logo {
+	padding-bottom: 3%;
+}
+
+footer p {
+	padding-top: 1%;
+}
+
+/* Social Icons*/
+.social {
+	max-width: 40px;
+}
+
+}
+/**********************End Min-width 900px *******************/
+
+
+/**********************Start Max-width 1000px *******************/
+/*Padding on Hamburger Menu in Portfolio Only*/
+@media (max-width: 1000px) {
+
+.portfolio {
+	padding: 2% 1% 2% 1%;
+}
+
+}
+
+/**********************End Max-width 1000px *******************/
+
+
+/**********************Start Min-width 1000px *******************/
+@media (min-width: 1000px) {
+
+.hamburger, .cross, .menu {
+	display: none;
+	}
+
+/* Portfolio Nav */
+.portfolio-logo {
+	display: none;
+}
+
+.portfolio-heading {
+	padding-top: 13%;
+}
+
+.portfolio {
+	padding-bottom: 3%;
+}
+
+/* HOMEPAGE DESKTOP MENU STYLES START HERE */
+	.desktop-menu {
+			display: block;
+		}
+
+	nav {
+		float: left;
+		width:100%;
+	}
+
+	nav img {
+		float: left;
+		padding: 3% 0 0 5%;
+	}
+
+	nav ul {
+		list-style-type: none;
+		text-align: right;
+		padding: 4% 5% 2% 0;
+		text-transform: uppercase;
+	}
+
+	nav ul li {
+		display: inline;
+		padding: 0 2% 0 2%;
+	}
+
+	nav a {
+		color: #ffff;
+		text-decoration:none;
+		font: 1.5rem 'Poppins', san-serif;
+	}
+
+	nav a:hover {
+	  color: black;
+	}
+
+	header {
+		width: 100%;
+		margin: auto;
+		max-width: 1700px;
+	}
+/*End Desktop Navigation */
+
+
+/* Footer */
+.footer-logo {
+	padding-bottom: 2%;
+}
+
+.social {
+		max-width: 35px;
+	}
+
+
+
+
+.about article {
+	max-width: 700px;
+	padding-right: 3%;
+}
+
+.about img {
+	max-width: 400px;
+	width: 100%;
+	padding-top: 0;
+
+}
+
+.about {
+	display: flex;
+	padding-top: 1%;
+	padding-bottom: 0;
+}
+
+.resume {
+	display:flex;
+	justify-content: center;
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+
+.resume p {
+	padding-right:  2%;
+
+}
+
+}
+/**********************End Min-width 1000px *******************/
+
+
+/**********************Start Min-width 1200px *******************/
+@media (min-width: 1200px) {
+
+/* Increase Hero Text Size */
+	.hero-image h1 {
+		font-size: 2.5rem;
+		max-width: 750px;
+	}
+
+	.testimonials {
+		padding: 1% 12% 3% 12%;
+	}
+
+	figcaption {
+		padding-top: 2%;
+	}
+
+/* PORTFOLIO PAGE*/
+.portfolio {
+	padding-bottom: 2%;
+}
+
+.portfolio-heading {
+	padding-top: 12%;
+}
+
+.featured-grid {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+/* Footer */
+.footer-logo {
+padding-bottom: 1%;
+}
+
+}
+/**********************End Min-width 1200px *******************/
+
+
+/**********************Start Min-width 1400px *******************/
+@media (min-width: 1400px) {
+
+	/* Increase Hero Text Size */
+	.hero-image h1 {
+		font-size: 3rem;
+		max-width: 885px;
+	}
+
+/* PORTFOLIO PAGE */
+	.portfolio {
+		padding-bottom: 1%;
+	}
+
+	.portfolio-heading{
+		padding-top: 11%;
+	}
+
+}
+
+
+/**********************End Min-width 1400px *******************/
+
+
+/**********************Start Min-width 1700px *******************/
+
+@media (min-width: 1700px) {
+	#container {
+		max-width: 1700px;
+		margin: auto;
+		border: 1px solid #F3E2E1;
+	}
+
+}
+/**********************End Min-width 1700px *******************/

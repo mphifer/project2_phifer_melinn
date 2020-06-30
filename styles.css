@@ -156,6 +156,7 @@ p {
   text-decoration: none;
   display: inline-block;
   font: 1.2rem 'Poppins', sans-serif;
+	letter-spacing: 1px;
 	font-weight: bold;
 }
 
@@ -314,8 +315,9 @@ img {
 }
 
 .about img {
-	width: 75%;
 	padding-top: 3%;
+	width: 100%;
+	max-width: 500px;
 }
 
 /*============================================

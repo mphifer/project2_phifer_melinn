@@ -674,11 +674,20 @@ footer p {
 padding-bottom: 1%;
 }
 
-.about {
-	max-width: 1200px;
-}
 }
 /**********************End Min-width 1200px *******************/
+
+/**********************Start Min-width 1300px *******************/
+
+@media (min-width: 1300px) {
+	#container {
+		max-width: 1300px;
+		margin: auto;
+		border: 1px solid #F3E2E1;
+	}
+
+}
+/**********************End Min-width 1300px *******************/
 
 
 /**********************Start Min-width 1400px *******************/
@@ -701,18 +710,4 @@ padding-bottom: 1%;
 
 }
 
-
 /**********************End Min-width 1400px *******************/
-
-
-/**********************Start Min-width 1700px *******************/
-
-@media (min-width: 1300px) {
-	#container {
-		max-width: 1300px;
-		margin: auto;
-		border: 1px solid #F3E2E1;
-	}
-
-}
-/**********************End Min-width 1700px *******************/

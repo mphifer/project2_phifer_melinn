@@ -580,7 +580,7 @@ footer p {
 	header {
 		width: 100%;
 		margin: auto;
-		max-width: 1700px;
+		max-width: 1300px;
 	}
 /*End Desktop Navigation */
 
@@ -674,6 +674,9 @@ footer p {
 padding-bottom: 1%;
 }
 
+.about {
+	max-width: 1200px;
+}
 }
 /**********************End Min-width 1200px *******************/
 
@@ -704,9 +707,9 @@ padding-bottom: 1%;
 
 /**********************Start Min-width 1700px *******************/
 
-@media (min-width: 1700px) {
+@media (min-width: 1300px) {
 	#container {
-		max-width: 1700px;
+		max-width: 1300px;
 		margin: auto;
 		border: 1px solid #F3E2E1;
 	}

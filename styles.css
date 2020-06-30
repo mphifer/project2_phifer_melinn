@@ -82,7 +82,7 @@ p {
 /* Portfolio Heading*/
 .portfolio-heading h1 {
 	font-size: 2rem;
-	letter-spacing: 1px;
+	letter-spacing: 3px;
 	text-transform:uppercase;
 	color: #cd8576;
 	padding:1% 0 1% 0;
@@ -334,6 +334,7 @@ img {
 	font-size: 1.3rem;
 	text-transform: uppercase;
 	font-weight: bold;
+	letter-spacing: 3px;
 }
 
 /*============================================
@@ -342,6 +343,12 @@ img {
 *
 *
 *===========================================*/
+.contact-me a {
+	text-decoration: none;
+	color: #cd8576;
+	font-weight:bold;
+}
+
 .contact-me {
 	padding-bottom: 3%;
 }
@@ -428,10 +435,10 @@ textarea#comments, input#firstname, input#lastname, input#email, input#telephone
 
 .submit input:hover {
 	  background-color: black;
-	  color: white;
+	  color: #F3E2E1;
 	}
 
-	.button:active {
+.submit input:active {
 	  background-color: #d4d4d4;
 	  color: #ffff;
 	}
@@ -560,6 +567,11 @@ figcaption {
 .hero-image {
 	padding: 20% 0 20% 0;
 }
+
+.portfolio-heading h1 {
+	font-size: 2.6rem;
+	letter-spacing: 3px;
+	max-width: 520px;
 
 }
 /**********************End Min-width 850px *******************/

@@ -362,7 +362,7 @@ img {
 
 .contact-form {
   background: #d7a09b;
-	max-width: 500px;
+	max-width: 700px;
   padding: 10px 3%;
   margin: auto;
   text-align: left;
@@ -686,7 +686,7 @@ footer p {
 	header {
 		width: 100%;
 		margin: auto;
-		max-width: 1300px;
+		max-width: 1700px;
 	}
 /*End Desktop Navigation */
 
@@ -731,12 +731,15 @@ footer p {
 
 .resume p {
 	padding-right: 40px;
+	font-size: 1.5rem;
 
 }
 
 .contact-page{
 	display: flex;
 	justify-content: center;
+	max-width: 1400px;
+	margin:auto;
 }
 
 .contact-form {
@@ -746,6 +749,7 @@ footer p {
 
 .plant {
 	width: 50%;
+
 }
 }
 /**********************End Min-width 1000px *******************/
@@ -796,18 +800,6 @@ padding-bottom: 1%;
 }
 /**********************End Min-width 1200px *******************/
 
-/**********************Start Min-width 1300px *******************/
-
-@media (min-width: 1300px) {
-	#container {
-		max-width: 1300px;
-		margin: auto;
-		border: 1px solid #F3E2E1;
-	}
-
-}
-/**********************End Min-width 1300px *******************/
-
 
 /**********************Start Min-width 1400px *******************/
 @media (min-width: 1400px) {
@@ -827,6 +819,22 @@ padding-bottom: 1%;
 		padding-top: 11%;
 	}
 
+	.about img {
+		max-width: 500px;
+	}
+
 }
 
 /**********************End Min-width 1400px *******************/
+
+/**********************Start Min-width 1700px *******************/
+
+@media (min-width: 1700px) {
+	#container {
+		max-width: 1700px;
+		margin: auto;
+		border: 1px solid #F3E2E1;
+	}
+
+}
+/**********************End Min-width 1700px *******************/

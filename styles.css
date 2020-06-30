@@ -533,7 +533,7 @@ footer p {
 }
 
 .portfolio-heading {
-	padding-top: 13%;
+	padding-top: 15%;
 }
 
 .portfolio {
@@ -617,7 +617,7 @@ footer p {
 
 .resume {
 	display:flex;
-	justify-content: center;
+	justify-content: space-around;
 	padding-top: 1%;
 	padding-bottom: 2%;
 }
@@ -630,6 +630,12 @@ footer p {
 }
 /**********************End Min-width 1000px *******************/
 
+@media (min-width: 1100px) {
+	.portfolio-heading {
+		padding-top: 14%;
+	}
+
+}
 
 /**********************Start Min-width 1200px *******************/
 @media (min-width: 1200px) {

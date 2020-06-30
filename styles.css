@@ -40,10 +40,6 @@ p {
 	padding-top: 3%;
 }
 
-
-
-
-
 /*============================================
 *
 *         Desktop Nav
@@ -321,6 +317,7 @@ img {
 	width: 75%;
 	padding-top: 3%;
 }
+
 /*============================================
 *
 *            ABOUT / Resume
@@ -338,7 +335,6 @@ img {
 	text-transform: uppercase;
 	font-weight: bold;
 }
-
 
 /*============================================
 *
@@ -360,6 +356,7 @@ img {
   margin: 0 auto;
 }
 
+/*CONTACT FORM BEGINS*/
 .contact-form {
   background: #d7a09b;
 	max-width: 700px;
@@ -406,12 +403,11 @@ textarea {
 
 textarea#comments, input#firstname, input#lastname, input#email, input#telephone {
 	font-family: 'Poppins', sans-serif;
-
 }
 
 /*============================================
 *
-*            Contact Form // Submit Button
+*            Contact Form / Submit Button
 *
 *
 *===========================================*/
@@ -439,7 +435,8 @@ textarea#comments, input#firstname, input#lastname, input#email, input#telephone
 	  background-color: #d4d4d4;
 	  color: #ffff;
 	}
-}
+
+/*CONTACT FORM ENDS*/
 
 /**********************Start Min-width 475px *******************/
 @media (min-width: 475px) {
@@ -502,6 +499,7 @@ figcaption {
 }
 
 /**********************End Min-width 600px *******************/
+
 
 /**********************Start Min-width 700px *******************/
 
@@ -605,6 +603,7 @@ footer p {
 	max-width: 40px;
 }
 
+/* CONTACT / Image */
 .plant {
 	max-width: 50%;
 }
@@ -700,20 +699,7 @@ footer p {
 		max-width: 35px;
 	}
 
-
-
-
-.about article {
-	max-width: 700px;
-	padding-right: 3%;
-}
-
-.about img {
-	max-width: 400px;
-	width: 100%;
-	padding-top: 0;
-
-}
+/* ABOUT / About Me */
 
 .about {
 	display: flex;
@@ -721,6 +707,20 @@ footer p {
 	padding-bottom: 0;
 }
 
+.about article {
+	max-width: 700px;
+	padding-right: 3%;
+}
+
+/* ABOUT / Image */
+.about img {
+	max-width: 400px;
+	width: 100%;
+	padding-top: 0;
+
+}
+
+/* ABOUT / Resume Section */
 .resume {
 	display:flex;
 	justify-content: center;
@@ -732,21 +732,24 @@ footer p {
 .resume p {
 	padding-right: 40px;
 	font-size: 1.5rem;
-
 }
 
+/* CONTACT / Contact Section  */
 .contact-page{
 	display: flex;
 	justify-content: center;
-	max-width: 1400px;
+	padding-left: 5%;
+	padding-right: 5%;
 	margin:auto;
 }
 
+/* CONTACT / Contact Form */
 .contact-form {
 	margin: 0;
 	flex: 1;
 }
 
+/* CONTACT / Image */
 .plant {
 	width: 50%;
 
@@ -763,7 +766,7 @@ footer p {
 
 /**********************Start Min-width 1200px *******************/
 @media (min-width: 1200px) {
-
+/* HOME PAGE */
 /* Increase Hero Text Size */
 	.hero-image h1 {
 		font-size: 2.5rem;
@@ -797,13 +800,18 @@ footer p {
 padding-bottom: 1%;
 }
 
+/* ABOUT PAGE */
+.about img {
+	max-width: 450px;
+}
+
 }
 /**********************End Min-width 1200px *******************/
 
 
 /**********************Start Min-width 1400px *******************/
 @media (min-width: 1400px) {
-
+/* HOME PAGE */
 	/* Increase Hero Text Size */
 	.hero-image h1 {
 		font-size: 3rem;
@@ -819,9 +827,11 @@ padding-bottom: 1%;
 		padding-top: 11%;
 	}
 
+/* ABOUT PAGE */
 	.about img {
-		max-width: 500px;
+		max-width: 600px;
 	}
+
 
 }
 

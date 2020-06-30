@@ -577,6 +577,8 @@ figcaption {
 	max-width: 520px;
 
 }
+
+}
 /**********************End Min-width 850px *******************/
 
 
@@ -618,11 +620,6 @@ footer p {
 .social {
 	max-width: 40px;
 }
-
-/* CONTACT / Image */
-/* .plant {
-	max-width: 50%;
-} */
 
 }
 /**********************End Min-width 900px *******************/
@@ -772,10 +769,13 @@ footer p {
 /* CONTACT / Image */
 .plant {
 	width: 50%;
+}
 
 }
-}
 /**********************End Min-width 1000px *******************/
+
+
+/**********************Start Min-width 1100px *******************/
 
 @media (min-width: 1100px) {
 	.portfolio-heading {
@@ -783,6 +783,9 @@ footer p {
 	}
 
 }
+
+/**********************End Min-width 1100px *******************/
+
 
 /**********************Start Min-width 1200px *******************/
 @media (min-width: 1200px) {
@@ -852,10 +855,10 @@ padding-bottom: 1%;
 		max-width: 600px;
 	}
 
-
 }
 
 /**********************End Min-width 1400px *******************/
+
 
 /**********************Start Min-width 1700px *******************/
 

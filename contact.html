@@ -58,7 +58,53 @@
 				<h1>Contact </h1>
 			</div>
 
-			
+			<section class="contact">
+          <p> Please fill out the form below and I will get back to you within 2 business days. </p>
+					<div class="contact-form">
+						<form class ="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+							<div class="first-name input-section">
+								<label for="firstname" class="label_input_wrap">First Name: </label>
+								<input type="text" name="req_firstname" id="firstname" placeholder="ex. John"/>
+							</div>
+
+							<div class="last-name input-section">
+								<label for="lastname" class="label_input_wrap">Last Name: </label>
+								<input type="text" name="req_lastname" id="lastname" placeholder="ex. Smith" />
+							</div>
+
+							<div class="email input-section">
+								<label for="email" class="label_input_wrap">Email: </label>
+								<input type="email" name="req_email" id="email" placeholder="jsmith@example.com" />
+							</div>
+
+							<div class="telephone input-section">
+								<label for="telephone" class="label_input_wrap">Telephone: </label>
+								<input type="tel" name="telephone" id="telephone" placeholder="555-555-5555" />
+							</div>
+
+							<div class="dropdown input-section">
+								<label for="services" class="label_input_wrap">What services are you interested in?</label>
+								<select name="services" id="services">
+									<option value="marketing">Digital Marketing</option>
+									<option value="email">Email Marketing</option>
+									<option value="design">Graphic Design</option>
+									<option value="web">Web Design</option>
+									<option value="social">Social Media</option>
+									<option value="blog">Blogging</option>
+								</select>
+							</div>
+
+							<div class="comments input-section">
+								<label for="comments" class="label_input_wrap">Message: </label>
+								<textarea name="comments" id="comments" cols="55" rows="5" placeholder="Your Message Goes Here"></textarea>
+							</div>
+
+							<div class="submit">
+								<input type="submit" value="Send" />
+							</div>
+						</form>
+					</div>
+			</section>
 		</main>
 
 		<footer>

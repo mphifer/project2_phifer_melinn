@@ -356,8 +356,8 @@ img {
 
 .contact-form {
   background: #d7a09b;
+	max-width: 500px;
   padding: 10px 3%;
-  max-width: 500px;
   margin: auto;
   text-align: left;
   color: black;
@@ -387,12 +387,15 @@ select#services {
 input {
   padding:10px 2% 10px 5px;
 	margin-bottom: 10px;
+	width: 90%;
+	max-width: 400px;
 }
 
 textarea {
   font-family: sans-serif;
   padding: 10px 5px;
-	max-width: 90%;
+	width: 90%;
+	max-width: 400px;
 }
 
 textarea#comments, input#firstname, input#lastname, input#email, input#telephone {
@@ -418,6 +421,7 @@ textarea#comments, input#firstname, input#lastname, input#email, input#telephone
 	  display: inline-block;
 	  font: 1rem 'Poppins', sans-serif;
 		font-weight: bold;
+		max-width: 100px;
 	}
 
 	.button:hover {

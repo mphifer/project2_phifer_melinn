@@ -44,6 +44,7 @@ a {
 *
 *
 *===========================================*/
+
 .desktop-menu {
 	display: none;
 }
@@ -463,8 +464,6 @@ padding-bottom: 1%;
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<div id="container">
-
 <header class="main-header">
   <button class="hamburger">&#9776;</button>
   <button class="cross">&#735;</button>
@@ -506,7 +505,6 @@ padding-bottom: 1%;
 
 	<p><strong><a class="button"href="contact.html" onClick="history.go(-1)">Back to Form</a></strong></p>
 </section>
-</div>
 
 <footer>
   <a href="index.html"><img class=footer-logo src="images/logo-small.png" alt="melinn phifer logo" title="melinn phifer logo" /></a>

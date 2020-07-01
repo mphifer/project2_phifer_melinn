@@ -1,4 +1,21 @@
 <style type="text/css">
+
+
+/*============================================
+*
+*            Form
+*
+*
+*===========================================*/
+.form {
+padding: 4% 5% 200px 5%;
+}
+
+.form p {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -23,18 +40,22 @@ body {
 }
 
 h1 {
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	text-transform:uppercase;
 	color: black;
 }
 
-p {
-	padding-top: 3%;
+h2 {
+	font-size: 2rem;
+	letter-spacing: 1px;
+	text-transform:uppercase;
+	color: #cd8576;
+	padding:1% 0 1% 0;
+	border-bottom: 2px solid black;
 }
 
-a {
-	text-decoration: none;
-	color: #cd8576;
+p {
+	padding-top: 3%;
 }
 
 /*============================================
@@ -78,7 +99,7 @@ a {
 }
 
 .main-heading h1 {
-	font-size: 1.5rem;
+	font-size: 2rem;
 	letter-spacing: 3px;
 	text-transform:uppercase;
 	color: #cd8576;
@@ -138,17 +159,33 @@ a {
 
 /*============================================
 *
-*            Form
+*            Buttons
 *
 *
 *===========================================*/
-.form {
-padding: 4% 5% 200px 5%;
+
+.button {
+  background-color: #ffff;
+  border:4px solid #cd8576;
+  color: black;
+  padding: 12px 16px;
+	margin-top: 3%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font: 1.2rem 'Poppins', sans-serif;
+	letter-spacing: 1px;
+	font-weight: bold;
 }
 
-.form p {
-	padding-left: 5%;
-	padding-right: 5%;
+.button:hover {
+  background-color: #cd8576;
+  color: #ffff;
+}
+
+.button:active {
+  background-color: #d4d4d4;
+  color: #ffff;
 }
 
 /*============================================
@@ -180,10 +217,266 @@ footer p {
 	padding-top: 5%;
 }
 
+/*============================================
+*
+*            HOME / Hero Image
+*
+*
+*===========================================*/
+
+.hero-image {
+	background-image: url(images/palms.jpg);
+	background-size: cover;
+	padding: 30% 0 30% 0;
+	font-family: 'Manrope', sans-serif;
+}
+
+.hero-image h1 {
+	font-size: 2rem;
+	font-family: 'Manrope', sans-serif;
+	color: #cd8576;
+	background-color: #ffff;
+	letter-spacing: 2px;
+	padding-left: 3px;
+	max-width: 412px;
+}
+
+.container-hero {
+	padding:0 5% 0 5%;
+}
+
+/*============================================
+*
+*            HOME / About Content
+*
+*
+*===========================================*/
+
+.about-content {
+	background-color: #F3E2E1;
+}
+
+.about-me {
+	padding:4% 5% 4% 5%;
+}
+
+/*Skills Section*/
+.skills {
+	background-color: #cd8576;
+	font-size: 1.25rem;
+	color: white;
+	line-height: 30px;
+	text-transform: uppercase;
+	padding: 6% 0 6% 0;
+	text-align:center;
+}
+
+.skills li {
+	list-style-type: none;
+}
+
+/*============================================
+*
+*            Images
+*
+*
+*===========================================*/
+img {
+	max-width: 100%;
+}
+
+/* HOME & PORTFOLIO */
+.featured-grid {
+	padding: 4% 3% 2% 3%;
+	display:flex;
+	flex-wrap: wrap;
+	margin:auto;
+}
+
+figure {
+	width: 100%;
+	padding: 2px;
+}
+
+figcaption {
+	padding-bottom: 4%;
+	text-align:center;
+}
+
+/* HOME / Featured Work */
+.featured {
+	padding:4% 5% 0 5%;
+}
+
+/*============================================
+*
+*            HOME / Testimonials
+*
+*
+*===========================================*/
+.testimonials {
+	padding:4% 5% 4% 5%;
+	background-color: #F3E2E1;
+	text-align: left;
+}
+
+/*============================================
+*
+*            ABOUT / About Section
+*
+*
+*===========================================*/
+
+.about {
+	padding: 3% 5%;
+}
+
+.about article {
+	padding-bottom: 10px;
+}
+
+.about img {
+	padding-top: 3%;
+	width: 100%;
+	max-width: 500px;
+}
+
+/*============================================
+*
+*            ABOUT / Resume Section
+*
+*
+*===========================================*/
+
+.resume {
+	padding: 4% 10%;
+	background-color: #d7a09b;
+}
+
+.resume p {
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+/*============================================
+*
+*           CONTACT / Contact Form
+*
+*
+*===========================================*/
+.contact {
+  padding: 10px 5%;
+  background: white;
+  margin: 0 auto;
+}
+
+.contact-me a {
+	text-decoration: none;
+	color: #cd8576;
+	font-weight:bold;
+}
+
+.contact-me {
+	padding-bottom: 3%;
+}
+
+/*Contact Image */
+.plant {
+	width: 100%;
+}
+
+/*CONTACT FORM BEGINS*/
+.contact-form {
+  background: #d7a09b;
+	max-width: 700px;
+  padding: 10px 3%;
+  margin: auto;
+  text-align: left;
+  color: black;
+	text-transform: uppercase;
+	font-family:'Poppins', sans-serif;
+}
+
+.label_input_wrap {
+  display: block;
+}
+
+label {
+
+	padding-bottom: 2%;
+}
+
+select#services {
+	padding: 10px 2%;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.input-section {
+  margin-bottom: 10px;
+}
+
+input {
+  padding:10px 2% 10px 5px;
+	margin-bottom: 10px;
+	width: 90%;
+	max-width: 400px;
+}
+
+textarea {
+  font-family: sans-serif;
+  padding: 10px 5px;
+	width: 90%;
+	max-width: 400px;
+}
+
+textarea#comments, input#firstname, input#lastname, input#email, input#telephone {
+	font-family: 'Poppins', sans-serif;
+}
+
+/*============================================
+*
+*            Contact Form / Submit Button
+*
+*
+*===========================================*/
+
+.submit input {
+	  background-color: #ffff;
+	  border:4px solid #cd8576;
+	  color: black;
+	  padding: 12px 12px;
+		margin-top: 3%;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font: 1.2rem 'Poppins', sans-serif;
+		font-weight: bold;
+		max-width: 100px;
+	}
+
+.submit input:hover {
+	  background-color: black;
+	  color: #F3E2E1;
+	}
+
+.submit input:active {
+	  background-color: #d4d4d4;
+	  color: #ffff;
+	}
+
+/*CONTACT FORM ENDS*/
+
+
 
 /**********************Start Min-width 475px *******************/
 @media (min-width: 475px) {
-
+/*ABOUT PAGE*/
+.about {
+	padding: 0% 5%;
+}
 
 /*FOOTER*/
 footer {
@@ -222,8 +515,66 @@ footer p {
 /**********************End Min-width 550px *******************/
 
 
+/**********************Start Min-width 600px *******************/
+@media (min-width: 600px) {
+
+/* HOMEPAGE */
+.hero-image {
+	padding: 15% 0 20% 0;
+}
+
+/* HOME & PORTFOLIO */
+figure {
+	width: 49%;
+}
+
+figcaption {
+	padding-bottom: 5%;
+}
+
+}
+
+/**********************End Min-width 600px *******************/
+
+
+/**********************Start Min-width 700px *******************/
+
+@media (min-width: 700px) {
+
+/* Limit Text Background */
+.hero-image h1 {
+	max-width: 615px;
+}
+
+}
+
+/**********************End Min-width 700px *******************/
+
+
 /**********************Start Min-width 800px *******************/
 @media (min-width: 800px) {
+
+	/* HOME / About */
+.about-content {
+	display: flex;
+}
+
+.about-me {
+	max-width: 50%;
+}
+
+	/* HOME / Skills */
+.skills {
+	flex: 1;
+	padding-left: 6%;
+	text-align: left;
+}
+
+	/* HOME / Testimonials */
+.testimonials {
+	padding: 1% 10% 2% 10%;
+	text-align: center;
+}
 
 /* MAIN HEADER */
 .main-logo {
@@ -238,6 +589,23 @@ footer p {
 /**********************End Min-width 800px *******************/
 
 
+/**********************Start Min-width 850px *******************/
+
+@media (min-width: 850px) {
+
+/* HOME */
+.hero-image {
+	padding: 20% 0 20% 0;
+}
+
+.main-heading h1 {
+	font-size: 2.6rem;
+	letter-spacing: 3px;
+	max-width: 520px;
+
+}
+
+}
 /**********************End Min-width 850px *******************/
 
 
@@ -246,6 +614,20 @@ footer p {
 
 .main-heading {
 	padding-top: 16%;
+}
+
+/* HOME & PORTFOLIO IMAGES */
+.featured-grid {
+	padding: 4% 5% 4% 5%;
+}
+
+figure {
+	width: 24%;
+	padding: 4px;
+}
+
+figcaption {
+	padding-bottom: 10%;
 }
 
 /* FOOTER */
@@ -356,6 +738,66 @@ footer p {
 .social {
 		max-width: 35px;
 	}
+
+/* ABOUT / About Me */
+
+.about {
+	display: flex;
+	padding-top: 1%;
+	padding-bottom: 0;
+}
+
+.about article {
+	max-width: 700px;
+	padding-right: 3%;
+}
+
+/* ABOUT / Image */
+.about img {
+	max-width: 400px;
+	width: 100%;
+	padding-top: 0;
+
+}
+
+/* ABOUT / Resume Section */
+.resume {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 1%;
+	padding-bottom: 3%;
+}
+
+.resume p {
+	padding-right: 40px;
+	font-size: 1.5rem;
+}
+
+/* CONTACT / Contact Section  */
+.contact {
+	display: flex;
+	justify-content: space-around;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin:auto;
+}
+
+.contact-me {
+	padding-bottom: 1%;
+}
+
+/* CONTACT / Contact Form */
+.contact-form {
+	margin: 0;
+	flex: 1;
+}
+
+/* CONTACT / Image */
+.plant {
+	width: 50%;
+}
+
 }
 /**********************End Min-width 1000px *******************/
 
@@ -375,6 +817,17 @@ footer p {
 /**********************Start Min-width 1200px *******************/
 @media (min-width: 1200px) {
 
+/* HOME PAGE */
+/* Increase Hero Text Size */
+	.hero-image h1 {
+		font-size: 2.5rem;
+		max-width: 750px;
+	}
+
+	.testimonials {
+		padding: 1% 12% 3% 12%;
+	}
+
 /* MAIN HEADER*/
 .main-header {
 	padding-bottom: 2%;
@@ -382,6 +835,22 @@ footer p {
 
 .main-heading {
 	padding-top: 12%;
+}
+
+/* HOME & PORTFOLIO */
+.featured-grid {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+/* PORTFOLIO */
+	figcaption {
+		padding-top: 2%;
+	}
+
+/* ABOUT PAGE */
+.about img {
+	max-width: 450px;
 }
 
 /* FOOTER */
@@ -395,6 +864,12 @@ padding-bottom: 1%;
 
 /**********************Start Min-width 1400px *******************/
 @media (min-width: 1400px) {
+/* HOME PAGE */
+	/* Increase Hero Text Size */
+	.hero-image h1 {
+		font-size: 3rem;
+		max-width: 885px;
+	}
 
 /* MAIN HEADER */
 	.main-header {
@@ -403,6 +878,11 @@ padding-bottom: 1%;
 
 	.main-heading{
 		padding-top: 11%;
+	}
+
+/* ABOUT PAGE */
+	.about img {
+		max-width: 600px;
 	}
 
 }
@@ -421,6 +901,7 @@ padding-bottom: 1%;
 
 }
 /**********************End Min-width 1700px *******************/
+
 
 </style>
 

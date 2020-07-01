@@ -437,7 +437,11 @@ textarea#comments, input#firstname, input#lastname, input#email, input#telephone
 	  font: 1.2rem 'Poppins', sans-serif;
 		font-weight: bold;
 		max-width: 100px;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
 	}
+
 
 .submit input:hover {
 	  background-color: black;

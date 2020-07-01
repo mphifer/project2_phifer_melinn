@@ -1,4 +1,5 @@
 <style type="text/css">
+
 * {
 	margin: 0;
 	padding: 0;
@@ -464,6 +465,8 @@ padding-bottom: 1%;
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+<div id="container">
+
 <header class="main-header">
   <button class="hamburger">&#9776;</button>
   <button class="cross">&#735;</button>
@@ -515,5 +518,6 @@ padding-bottom: 1%;
 
   <p> MELINN PHIFER &copy; 2020 </p>
 </footer>
+</div>
 
 <script src="js/hamburger.js"></script>

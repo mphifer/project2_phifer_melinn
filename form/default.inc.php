@@ -44,6 +44,7 @@ a {
 *
 *
 *===========================================*/
+
 .desktop-menu {
 	display: none;
 }
@@ -143,13 +144,49 @@ a {
 *
 *
 *===========================================*/
+
 .form {
-padding: 4% 5% 200px 5%;
+	padding: 4% 5% 100px 5%;
 }
 
 .form p {
 	padding-left: 5%;
 	padding-right: 5%;
+}
+
+.form li {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+/*============================================
+*
+*            Button
+*
+*
+*===========================================*/
+
+.button {
+  background-color: #ffff;
+  border:4px solid #cd8576;
+  color: black;
+  padding: 6px 8px;
+	margin-top: 3%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font: .9rem 'Poppins', sans-serif;
+	font-weight: bold;
+}
+
+.button:hover {
+  background-color: black;
+	color: white;
 }
 
 /*============================================
@@ -458,7 +495,7 @@ padding-bottom: 1%;
   <h1 class="main-heading">Sorry, something went wrong with your submission.</h1>
   <p> Please try again. </p>
 </section>
-</div>
+
 
   <footer>
     <a href="index.html"><img class=footer-logo src="images/logo-small.png" alt="melinn phifer logo" title="melinn phifer logo" /></a>
@@ -469,5 +506,6 @@ padding-bottom: 1%;
 
     <p> MELINN PHIFER &copy; 2020 </p>
   </footer>
+	</div>
 
 	<script src="js/hamburger.js"></script>

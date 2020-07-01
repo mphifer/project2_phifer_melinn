@@ -11,7 +11,7 @@ $form->processForm(
 	,
 	'Melinn Phifer' // Put your site name / form name here
 	,
-	'mphifer@ufl.edu' // Where will the form notification be sent?
+	'melinnphifer@gmail.com' // Where will the form notification be sent?
 	,
 	'noreply@melinnphifer.com' // This what the form FROM: address wil be, if the form submissions doesn't contain an email field
 

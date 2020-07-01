@@ -23,22 +23,19 @@ body {
 }
 
 h1 {
-	font-size: 2.5rem;
+	font-size: 1.5rem;
 	text-transform:uppercase;
 	color: black;
 }
 
-h2 {
-	font-size: 2rem;
-	letter-spacing: 1px;
-	text-transform:uppercase;
-	color: #cd8576;
-	padding:1% 0 1% 0;
-	border-bottom: 2px solid black;
-}
 
 p {
 	padding-top: 3%;
+}
+
+a {
+	text-decoration: none;
+	color: #cd8576;
 }
 
 /*============================================
@@ -82,7 +79,7 @@ p {
 }
 
 .main-heading h1 {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	letter-spacing: 3px;
 	text-transform:uppercase;
 	color: #cd8576;
@@ -140,7 +137,85 @@ p {
 .menu a:hover{text-decoration:none; color:#666;}
 
 
+/*============================================
+*
+*            Form
+*
+*
+*===========================================*/
 
+.form {
+	padding: 4% 5% 100px 5%;
+}
+
+.form p {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.form li {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+/*============================================
+*
+*            Button
+*
+*
+*===========================================*/
+
+.button {
+  background-color: #ffff;
+  border:4px solid #cd8576;
+  color: black;
+  padding: 6px 8px;
+	margin-top: 3%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font: .9rem 'Poppins', sans-serif;
+	font-weight: bold;
+}
+
+.button:hover {
+  background-color: black;
+	color: white;
+}
+
+/*============================================
+*
+*            Footer
+*
+*
+*===========================================*/
+
+footer {
+	text-align: center;
+	padding:5% 0 1% 0;
+	background-color: #cd8576;
+}
+
+.footer-logo {
+	max-width: 250px;
+	padding-bottom: 7%;
+	margin: auto;
+	display: block;
+}
+
+.social {
+	max-width:50px;
+	margin: auto;
+}
+
+footer p {
+	padding-top: 5%;
+}
 
 
 /**********************Start Min-width 475px *******************/
@@ -200,18 +275,6 @@ footer p {
 /**********************End Min-width 800px *******************/
 
 
-/**********************Start Min-width 850px *******************/
-
-@media (min-width: 850px) {
-
-.main-heading h1 {
-	font-size: 2.6rem;
-	letter-spacing: 3px;
-	max-width: 520px;
-
-}
-
-}
 /**********************End Min-width 850px *******************/
 
 
@@ -398,6 +461,8 @@ padding-bottom: 1%;
 
 </style>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 <div id="container">
 
 <header class="main-header">
@@ -425,12 +490,10 @@ padding-bottom: 1%;
     <a href="index.html"><img class="main-logo" src="images/logo.png" alt="melinn phifer logo" title="melinn phifer logo" /></a>
 </header>
 
+<section class="form">
 	<h1 class="main-heading">Missing fields</h1>
 	<p>Sorry, you have not completed all of the required fields.</p>
-	<p>Please hit <a href="#" onClick="history.go(-1)">back</a> and complete the following required fields.</p>
-
-</div>
-
+	<p>Please hit <a href="#" onClick="history.go(-1)">back</a> and complete the following required fields:</p>
 
 
 	<ul>
@@ -441,9 +504,9 @@ padding-bottom: 1%;
 	?>
 	</ul>
 
-	<p><strong><a href="#" onClick="history.go(-1)">Back to form</a></strong></p>
+	<p><strong><a class="button"href="contact.html" onClick="history.go(-1)">Back to Form</a></strong></p>
+</section>
 </div>
-
 
 <footer>
   <a href="index.html"><img class=footer-logo src="images/logo-small.png" alt="melinn phifer logo" title="melinn phifer logo" /></a>
@@ -454,3 +517,5 @@ padding-bottom: 1%;
 
   <p> MELINN PHIFER &copy; 2020 </p>
 </footer>
+
+<script src="js/hamburger.js"></script>

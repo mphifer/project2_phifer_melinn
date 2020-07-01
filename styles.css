@@ -42,7 +42,7 @@ p {
 
 /*============================================
 *
-*         Desktop Nav
+*         DESKTOP NAV
 *
 *
 *===========================================*/
@@ -56,31 +56,31 @@ p {
 
 /*============================================
 *
-*         Portfolio Nav Only
+*         MAIN HEADER (Portfolio, About, Contact)
 *
 *
 *===========================================*/
 
-.portfolio {
+.main-header {
 	background-color: #d7a09b;
 	text-align:center;
 	position: fixed;
 }
 
-.portfolio-logo {
+.main-logo {
 	padding-top: 10%;
 	max-width: 70%;
 	background-color: #d7a09b;
 }
 
-.portfolio-heading {
+/* Main Heading H1*/
+.main-heading {
 	padding-top: 30%;
 	padding-left: 5%;
 	padding-right: 5%;
 }
 
-/* Portfolio Heading*/
-.portfolio-heading h1 {
+.main-heading h1 {
 	font-size: 2rem;
 	letter-spacing: 3px;
 	text-transform:uppercase;
@@ -242,6 +242,7 @@ footer p {
 	padding:4% 5% 4% 5%;
 }
 
+/*Skills Section*/
 .skills {
 	background-color: #cd8576;
 	font-size: 1.25rem;
@@ -262,7 +263,11 @@ footer p {
 *
 *
 *===========================================*/
+img {
+	max-width: 100%;
+}
 
+/* HOME & PORTFOLIO */
 .featured-grid {
 	padding: 4% 3% 2% 3%;
 	display:flex;
@@ -280,12 +285,9 @@ figcaption {
 	text-align:center;
 }
 
+/* HOME / Featured Work */
 .featured {
 	padding:4% 5% 0 5%;
-}
-
-img {
-	max-width: 100%;
 }
 
 /*============================================
@@ -323,7 +325,7 @@ img {
 
 /*============================================
 *
-*            ABOUT / Resume
+*            ABOUT / Resume Section
 *
 *
 *===========================================*/
@@ -342,10 +344,16 @@ img {
 
 /*============================================
 *
-*            Contact Form
+*           CONTACT / Contact Form
 *
 *
 *===========================================*/
+.contact {
+  padding: 10px 5%;
+  background: white;
+  margin: 0 auto;
+}
+
 .contact-me a {
 	text-decoration: none;
 	color: #cd8576;
@@ -356,14 +364,9 @@ img {
 	padding-bottom: 3%;
 }
 
+/*Contact Image */
 .plant {
 	width: 100%;
-}
-
-.contact {
-  padding: 10px 5%;
-  background: white;
-  margin: 0 auto;
 }
 
 /*CONTACT FORM BEGINS*/
@@ -452,11 +455,12 @@ textarea#comments, input#firstname, input#lastname, input#email, input#telephone
 
 /**********************Start Min-width 475px *******************/
 @media (min-width: 475px) {
-
+/*ABOUT PAGE*/
 .about {
 	padding: 0% 5%;
 }
 
+/*FOOTER*/
 footer {
 	padding:3% 0 1% 0;
 }
@@ -478,13 +482,13 @@ footer p {
 
 @media (min-width: 550px) {
 
-/* Portfolio Nav */
-.portfolio-logo {
+/* MAIN HEADER */
+.main-logo {
 	padding-top: 5%;
 	max-width: 45%;
 }
 
-.portfolio-heading {
+.main-heading {
 	padding-top: 20%;
 }
 
@@ -496,10 +500,12 @@ footer p {
 /**********************Start Min-width 600px *******************/
 @media (min-width: 600px) {
 
+/* HOMEPAGE */
 .hero-image {
 	padding: 15% 0 20% 0;
 }
 
+/* HOME & PORTFOLIO */
 figure {
 	width: 49%;
 }
@@ -552,12 +558,12 @@ figcaption {
 	text-align: center;
 }
 
-/* Portfolio Nav */
-.portfolio-logo {
+/* MAIN HEADER */
+.main-logo {
 	padding-top: 3%;
 }
 
-.portfolio-heading {
+.main-heading {
 	padding-top: 17%;
 }
 
@@ -569,11 +575,12 @@ figcaption {
 
 @media (min-width: 850px) {
 
+/* HOME */
 .hero-image {
 	padding: 20% 0 20% 0;
 }
 
-.portfolio-heading h1 {
+.main-heading h1 {
 	font-size: 2.6rem;
 	letter-spacing: 3px;
 	max-width: 520px;
@@ -587,11 +594,11 @@ figcaption {
 /**********************Start Min-width 900px *******************/
 @media (min-width: 900px) {
 
-.portfolio-heading {
+.main-heading {
 	padding-top: 16%;
 }
 
-/* Featured Images */
+/* HOME & PORTFOLIO IMAGES */
 .featured-grid {
 	padding: 4% 5% 4% 5%;
 }
@@ -605,7 +612,7 @@ figcaption {
 	padding-bottom: 10%;
 }
 
-/* Footer */
+/* FOOTER */
 footer {
 	padding-top:2%;
 }
@@ -618,7 +625,7 @@ footer p {
 	padding-top: 1%;
 }
 
-/* Social Icons*/
+/* Social Icons */
 .social {
 	max-width: 40px;
 }
@@ -631,7 +638,7 @@ footer p {
 /*Padding on Hamburger Menu in Portfolio Only*/
 @media (max-width: 1000px) {
 
-.portfolio {
+.main-header {
 	padding: 2% 1% 2% 1%;
 }
 
@@ -647,17 +654,17 @@ footer p {
 	display: none;
 	}
 
-/* Portfolio Nav */
-.portfolio-logo {
+.main-logo {
 	display: none;
 }
 
-.portfolio-heading {
-	padding-top: 15%;
+/* MAIN HEADER */
+.main-header {
+	padding-bottom: 3%;
 }
 
-.portfolio {
-	padding-bottom: 3%;
+.main-heading {
+	padding-top: 15%;
 }
 
 /* HOMEPAGE DESKTOP MENU STYLES START HERE */
@@ -705,7 +712,7 @@ footer p {
 /*End Desktop Navigation */
 
 
-/* Footer */
+/* FOOTER */
 .footer-logo {
 	padding-bottom: 2%;
 }
@@ -780,7 +787,7 @@ footer p {
 /**********************Start Min-width 1100px *******************/
 
 @media (min-width: 1100px) {
-	.portfolio-heading {
+	.main-heading {
 		padding-top: 14%;
 	}
 
@@ -791,6 +798,7 @@ footer p {
 
 /**********************Start Min-width 1200px *******************/
 @media (min-width: 1200px) {
+
 /* HOME PAGE */
 /* Increase Hero Text Size */
 	.hero-image h1 {
@@ -802,32 +810,34 @@ footer p {
 		padding: 1% 12% 3% 12%;
 	}
 
-	figcaption {
-		padding-top: 2%;
-	}
-
-/* PORTFOLIO PAGE*/
-.portfolio {
+/* MAIN HEADER*/
+.main-header {
 	padding-bottom: 2%;
 }
 
-.portfolio-heading {
+.main-heading {
 	padding-top: 12%;
 }
 
+/* HOME & PORTFOLIO */
 .featured-grid {
 	padding-top: 2%;
 	padding-bottom: 2%;
 }
 
-/* Footer */
-.footer-logo {
-padding-bottom: 1%;
-}
+/* PORTFOLIO */
+	figcaption {
+		padding-top: 2%;
+	}
 
 /* ABOUT PAGE */
 .about img {
 	max-width: 450px;
+}
+
+/* FOOTER */
+.footer-logo {
+padding-bottom: 1%;
 }
 
 }
@@ -843,12 +853,12 @@ padding-bottom: 1%;
 		max-width: 885px;
 	}
 
-/* PORTFOLIO PAGE */
-	.portfolio {
+/* MAIN HEADER */
+	.main-header {
 		padding-bottom: 1%;
 	}
 
-	.portfolio-heading{
+	.main-heading{
 		padding-top: 11%;
 	}
 

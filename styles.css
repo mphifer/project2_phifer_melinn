@@ -736,6 +736,7 @@ footer p {
 
 .about article {
 	max-width: 700px;
+	padding-bottom: 30px;
 	padding-right: 3%;
 }
 

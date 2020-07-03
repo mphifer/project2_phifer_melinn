@@ -147,7 +147,7 @@ a {
 *===========================================*/
 
 .form {
-	padding: 4% 5% 100px 5%;
+	padding: 4% 5% 400px 5%;
 }
 
 .form p {
@@ -506,7 +506,7 @@ padding-bottom: 1%;
     <a href="index.html"><img class="main-logo" src="images/logo.png" alt="melinn phifer logo" title="melinn phifer logo" /></a>
 </header>
 
-<section class="form" style="overflow:auto">
+<section class="form">
     <h1 class="main-heading">Thank you for your inquiry. </h1>
     <p>I have received your message and will be in touch within 24 hours.</p>
 </section>

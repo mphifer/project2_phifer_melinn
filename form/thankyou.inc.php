@@ -201,6 +201,7 @@ footer {
 	text-align: center;
 	padding:5% 0 1% 0;
 	background-color: #cd8576;
+	max-width: 1700px;
 }
 
 .footer-logo {
@@ -461,8 +462,20 @@ padding-bottom: 1%;
 }
 /**********************End Min-width 1700px *******************/
 
+/**********************Start Max-width 620px *******************/
+@media only screen and (max-width: 620px) {
+/* For Mobile Phones */
+.menu, .main, .right {
+	width: 100%;
+}
+
+}
+
+/**********************End Max-width 620px *******************/
 
 </style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -493,7 +506,7 @@ padding-bottom: 1%;
     <a href="index.html"><img class="main-logo" src="images/logo.png" alt="melinn phifer logo" title="melinn phifer logo" /></a>
 </header>
 
-<section class="form">
+<section class="form" style="overflow:auto">
     <h1 class="main-heading">Thank you for your inquiry. </h1>
     <p>I have received your message and will be in touch within 24 hours.</p>
 </section>

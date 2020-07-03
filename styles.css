@@ -333,6 +333,7 @@ figcaption {
 .resume {
 	padding: 4% 3%;
 	background-color: #d7a09b;
+	text-align: center;
 }
 
 .resume p {

@@ -87,7 +87,6 @@ p {
 	color: #cd8576;
 	padding:1% 0 1% 0;
 	border-bottom: 2px solid black;
-
 }
 
 /*============================================
@@ -588,7 +587,6 @@ figcaption {
 .main-heading h1 {
 	font-size: 2.6rem;
 	letter-spacing: 3px;
-	max-width: 520px;
 
 }
 

@@ -16,8 +16,6 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 *
 *===========================================*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,300&display=swap');
-
 html {
 	font-family: 'Poppins', sans-serif;
 }
@@ -373,6 +371,10 @@ footer p {
 		padding: 0 2% 0 2%;
 	}
 
+	nav ul li a {
+		font-family: 'Poppins', san-serif;
+	}
+
 	nav a {
 		color: #ffff;
 		text-decoration:none;
@@ -469,7 +471,7 @@ padding-bottom: 1%;
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <div id="container">
